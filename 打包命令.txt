@@ -1,0 +1,5 @@
+
+# 带调试
+nuitka --mingw64 --standalone --show-memory --show-progress --plugin-enable=qt-plugins --nofollow-imports --output-dir=software1 --windows-icon-from-ico=ui/ooi.ico main.py
+# 去掉调试
+nuitka --mingw64 --standalone --show-memory --show-progress --plugin-enable=qt-plugins --nofollow-imports --windows-disable-console --output-dir=softwareed2 main.py
